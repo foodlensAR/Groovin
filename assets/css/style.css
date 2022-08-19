@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #25787e;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -554,42 +554,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Why Us
---------------------------------------------------------------*/
-.why-us .box {
-  padding: 50px 30px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  transition: all ease-in-out 0.3s;
-}
-.why-us .box span {
-  display: block;
-  font-size: 28px;
-  font-weight: 700;
-  color: #8ed851;
-}
-.why-us .box h4 {
-  font-size: 24px;
-  font-weight: 600;
-  padding: 0;
-  margin: 20px 0;
-  color: #2a2a2a;
-}
-.why-us .box p {
-  color: #aaaaaa;
-  font-size: 15px;
-  margin: 0;
-  padding: 0;
-}
-.why-us .box:hover {
-  background: #5c9f24;
-  padding: 30px 30px 70px 30px;
-  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
-}
-.why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
-  color: #fff;
-}
-
-/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
@@ -749,6 +713,32 @@ section {
   padding: 0;
 }
 
+#portfolio-details
+
+.mission-info {
+  padding-left: 100px;
+  position: page;
+}
+
+/*--------------------------------------------------------------
+# Community
+--------------------------------------------------------------*/
+.community {
+  padding-top: 100px;
+  padding-left: 70px;
+  font-size: 15px;
+}
+
+.img-blog {
+  align-content: centre;
+  width: 20%;
+}
+
+h6 {
+  font-size: 15px;
+  font-style: italic;
+}
+
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -812,99 +802,6 @@ section {
 .team .member .social i {
   font-size: 18px;
   margin: 0 2px;
-}
-
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #f7f7f7;
-  text-align: center;
-  border-radius: 8px;
-  position: relative;
-  overflow: hidden;
-}
-.pricing .box h3 {
-  font-weight: 400;
-  padding: 15px;
-  margin-top: 15px;
-  font-size: 18px;
-  font-weight: 600;
-  color: #2a2a2a;
-}
-.pricing .box h4 {
-  font-size: 42px;
-  color: #5c9f24;
-  font-weight: 500;
-  font-family: "Open Sans", sans-serif;
-  margin-bottom: 20px;
-}
-.pricing .box h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-.pricing .box h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-.pricing .box ul {
-  padding: 0;
-  list-style: none;
-  color: #2a2a2a;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-.pricing .box ul li {
-  padding-bottom: 16px;
-}
-.pricing .box ul i {
-  color: #5c9f24;
-  font-size: 18px;
-  padding-right: 4px;
-}
-.pricing .box ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-.pricing .box .btn-wrap {
-  padding: 15px;
-  text-align: center;
-}
-.pricing .box .btn-buy {
-  display: inline-block;
-  padding: 10px 40px 12px 40px;
-  border-radius: 4px;
-  border: 2px solid #5c9f24;
-  color: #5c9f24;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-}
-.pricing .box .btn-buy:hover {
-  background: #5c9f24;
-  color: #fff;
-}
-.pricing .recommended {
-  background: #5c9f24;
-}
-.pricing .recommended h3, .pricing .recommended h4, .pricing .recommended h4 span, .pricing .recommended ul, .pricing .recommended ul .na {
-  color: #fff;
-}
-.pricing .recommended .btn-buy {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.3);
-  color: #fff;
-}
-.pricing .recommended .btn-buy:hover {
-  background: #fff;
-  border-color: #fff;
-  color: #5c9f24;
 }
 
 /*--------------------------------------------------------------
@@ -1138,7 +1035,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #57bfbd;
+  background: #000000;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1244,13 +1141,13 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #25787e;
+  background: #07fccb;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #57bfbd;
+  background: #07fccb;
 }
 #footer .copyright {
   text-align: center;
