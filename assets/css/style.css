@@ -636,7 +636,7 @@ section {
   font-style: italic;
 }
 .portfolio .portfolio-wrap .portfolio-links {
-  text-align: center;
+  text-align: left;
   z-index: 4;
 }
 .portfolio .portfolio-wrap .portfolio-links a {
@@ -732,6 +732,11 @@ section {
 .img-blog {
   align-content: centre;
   width: 20%;
+}
+
+h5 {
+  font-style: italic;
+  color: #fff3cd;
 }
 
 h6 {
@@ -1158,4 +1163,106 @@ h6 {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Privacy
+--------------------------------------------------------------*/
+
+.signature {
+  height: 50%;
+}
+
+/************ TERMS & CONDITIONS ********/
+
+.terms-body{
+  /*margin: 0;
+  padding: 0;
+  min-height: 100vh;*/
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.terms-box{
+  max-width: 460px;
+  background-color: #111;
+  color: #fff;
+  font-family: "Montserrat";
+  padding: 60px 30px;
+}
+
+.terms-text{
+  padding: 0 20px;
+  height: 400px;
+  overflow-y: auto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #f1f1f1;
+}
+
+.terms-text::-webkit-scrollbar{
+  width: 2px;
+  background-color: #282828;
+}
+
+.terms-text::-webkit-scrollbar-thumb{
+  background-color: #07fccb;
+}
+
+.terms-text h2{
+  text-transform: uppercase;
+}
+
+.terms-box h3{
+  font-size: 13px;
+  text-align: center;
+  padding: 0 40px;
+}
+
+
+.terms-box h4{
+  font-size: 13px;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.terms-box h4 span{
+  color: #07fccb;
+}
+
+.buttons{
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.btn{
+  height: 50px;
+  width: calc(50% - 6px);
+  border: 0;
+  border-radius: 6px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #fff;
+  transition: .3s  linear;
+  cursor: pointer;
+}
+
+.red-btn{
+  background-color: #07fccb;
+}
+
+.gray-btn{
+  background-color: #282828;
+  color: #fff3cd;
+}
+
+.btn:hover{
+  opacity: .6;
+}
+
+.link {
+  color: #07fccb
 }
