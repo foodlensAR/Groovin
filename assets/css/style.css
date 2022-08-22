@@ -736,12 +736,29 @@ section {
 
 h5 {
   font-style: italic;
+  font-size: 15px;
   color: #fff3cd;
 }
 
 h6 {
   font-size: 15px;
   font-style: italic;
+}
+
+.book-btn {
+  font size: 15px;
+  color: black;
+  background-color: #07fccb;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  transition-duration: 0.4s;
+  padding: 5px;
+  margin-left: 170px;
+}
+
+.book-btn:hover {
+  color: #07fccb;
+  background-color: #000000;
 }
 
 /*--------------------------------------------------------------
