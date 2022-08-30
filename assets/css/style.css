@@ -1225,6 +1225,27 @@ h6 {
   height: 50%;
 }
 
+/* ----------
+Mission
+ */
+.mission-info {
+  background-color: #343433;
+  color: white;
+}
+
+.mission-info h2 {
+  color: #07fccb;
+}
+
+.mission-info .breadcrumbs {
+  background-color: black;
+  color: white;
+}
+
+.mission-info .signature {
+  size: 50%;
+}
+
 /************ TERMS & CONDITIONS ********/
 
 .terms-body{
@@ -1318,3 +1339,4 @@ h6 {
 .link {
   color: #07fccb
 }
+
